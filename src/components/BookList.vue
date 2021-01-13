@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: BookList,
+  name: "BookList",
   data: {
     title: "All Books",
     books: [
@@ -32,10 +32,5 @@ h2 {
 ul {
   list-style-type: none;
   padding: 0;
-}
-
-li {
-  display: block;
-  margin: 0 10px;
 }
 </style>
